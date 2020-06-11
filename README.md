@@ -31,7 +31,7 @@ For **Age Classification**, following are the details of the model:
 8. Last layer maps to the 3 classes for age
   
 Trained with a learning rate of 0.025,Batch Size of 64 and with 100 epochs.
-Used Stochastic Gradient Descent (SGD) optimizer and 80% split of train and validation data.
+Used Stochastic Gradient Descent (SGD) optimizer and 90% split of train and validation data.
 Used OpenCV library for image processing along with data visualization and augmentation.
 
 ![With 100 epochs](accuracy_loss_tradeoff_graphs/100_epochs.png)
@@ -51,8 +51,8 @@ Used OpenCV library for image processing along with data visualization and augme
 
 ## Results
 
-Training Accuracy : **91.51%**</br>
-Validation Accuracy : **89.83%**</br>
+Training Accuracy : **93.30%**</br>
+Validation Accuracy : **91.26%**</br>
 
 ## Outputs
 
