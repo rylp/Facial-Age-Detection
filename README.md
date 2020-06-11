@@ -34,9 +34,8 @@ Trained with a learning rate of 0.025,Batch Size of 64 and with 100 epochs.
 Used Stochastic Gradient Descent (SGD) optimizer and 90% split of train and validation data.
 Used OpenCV library for image processing along with data visualization and augmentation.
 
+![With 150 epochs](accuracy_loss_tradeoff_graphs/150epochs-v15.png)
 ![With 100 epochs](accuracy_loss_tradeoff_graphs/100_epochs.png)
-![With 75 epochs](accuracy_loss_tradeoff_graphs/75epochs.png)
-![With 150 epochs](accuracy_loss_tradeoff_graphs/150epochs.png)
 
 ## Libraries Used
 1. OpenCV</br>
