@@ -18,21 +18,7 @@ The following preprocessing was applied to each image:
 - Randomly mirror images in each forward-backward training pass
 - Data Augmentation is used
 
-## Model Description
-For **Age Classification**, following are the details of the model: 
-
-1. 3x3 filter shape, 32 feature maps. Stride of 1 and 0 padding. Followed by: ReLU,Batch-Normalization,Max-Pool,Dropout of 0.25
-2. 3x3 filter shape, 64 feature maps. Followed by: Batch-Normalization
-3. 3x3 filter shape, 64 feature maps,stride 1 and padding 1. ReLU, Batch-Normalization,Max-Pool of size 2,Dropout of 0.25.
-4. 3x3 filter shape, 128 feature maps. Followed by: Batch-Normalization
-5. 3x3 filter shape, 128 feature maps. Followed by: Batch-Normalization
-6. 3x3 filter shape, 128 feature maps,stride 1 and padding 1. ReLU, Batch-Normalization,Max-Pool of size 2,Dropout of 0.25.
-7. Fully connected layer of 1024 neurons and the another layer of 84 neurons. Followed by : ReLU,Batch Normalization, Dropout of 0.5. 
-8. Last layer maps to the 3 classes for age
-  
-Trained with a learning rate of 0.025,Batch Size of 64 and with 100 epochs.
-Used Stochastic Gradient Descent (SGD) optimizer and 90% split of train and validation data.
-Used OpenCV library for image processing along with data visualization and augmentation.
+## Accuracy-Loss Trade-off Graphs
 
 ![With 150 epochs](accuracy_loss_tradeoff_graphs/150epochs-v15.png)
 ![With 100 epochs](accuracy_loss_tradeoff_graphs/100_epochs.png)
